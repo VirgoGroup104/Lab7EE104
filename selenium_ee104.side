@@ -1,0 +1,193 @@
+{
+  "id": "d0c8add7-d9c5-46ae-9f20-fd060c402787",
+  "version": "2.0",
+  "name": "ee104",
+  "url": "https://eprint.com.hr",
+  "tests": [{
+    "id": "f7aab23d-4a1f-45d1-a17d-b837f205f721",
+    "name": "selenium_104",
+    "commands": [{
+      "id": "3b3b0b6e-e705-43da-9cf9-8e11827d6f31",
+      "comment": "",
+      "command": "open",
+      "target": "/demo/addauser.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "340ee784-d9b3-4e16-8158-100a2e2a4b33",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "780x912",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8974e665-807c-4ac9-a407-05f2e6d8d977",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80893842-c1cb-44e8-b4bb-792e4358c16c",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ee104"
+    }, {
+      "id": "c4e2f741-f322-4203-9a8c-f27bd09f26c3",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8842c23d-9d59-40c7-8d08-695522650aaf",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "rae134"
+    }, {
+      "id": "ca5c90bd-0958-424d-9f3a-7d45f65ebc72",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9282585c-1142-4ac8-8ade-dbf1b311467c",
+      "comment": "",
+      "command": "click",
+      "target": "name=FormsButton2",
+      "targets": [
+        ["name=FormsButton2", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='FormsButton2']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b325df6d-4168-421b-ae50-8b3e522b1b3f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4. Login",
+      "targets": [
+        ["linkText=4. Login", "linkText"],
+        ["css=a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'4. Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'login.php')]", "xpath:href"],
+        ["xpath=//small/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'4. Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc8c76ad-c432-4372-95e3-fb170ef9bf7e",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd7473e5-2b67-4b64-92e7-11b783b320f4",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ee104"
+    }, {
+      "id": "ac14b95e-c15b-4959-9545-e14a6ef2078c",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58a68a32-5e6c-4db7-9a4d-3434d2d76c5f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "rae134"
+    }, {
+      "id": "b20c7322-698d-4be1-94ed-f3755562677e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4104125a-9ab9-4775-a6ea-18cc8a0f08f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=FormsButton2",
+      "targets": [
+        ["name=FormsButton2", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='FormsButton2']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1cf563ee-350f-411a-ab71-67aa357cfd9c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f7aab23d-4a1f-45d1-a17d-b837f205f721"]
+  }],
+  "urls": ["https://eprint.com.hr/"],
+  "plugins": []
+}

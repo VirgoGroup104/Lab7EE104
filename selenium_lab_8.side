@@ -1,0 +1,145 @@
+{
+  "id": "73d357bb-97c6-4bdb-a4ba-a96547fdcb48",
+  "version": "2.0",
+  "name": "selenium_lab_8",
+  "url": "http://eprint.com.hr",
+  "tests": [{
+    "id": "4df9c358-6702-40d7-babd-7c36f78deb66",
+    "name": "my_login_test",
+    "commands": [{
+      "id": "56856f6f-5bf7-4142-809c-d3c37de18177",
+      "comment": "",
+      "command": "open",
+      "target": "/demo/addauser.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b43f0287-24fd-48f4-bea0-83ef125bd10c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "831x912",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6209efc7-98a0-46d8-98fd-c8563362bd92",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92af1f1b-4c35-4bb9-a2ac-251618d5557f",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "0a343642-0629-445e-b717-bd92a1b631c4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "b6b573b9-13b5-4047-9847-5efc15c5648b",
+      "comment": "",
+      "command": "click",
+      "target": "name=FormsButton2",
+      "targets": [
+        ["name=FormsButton2", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='FormsButton2']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27e798a4-1506-43c5-bc4c-4a2e244a3e36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4. Login",
+      "targets": [
+        ["linkText=4. Login", "linkText"],
+        ["css=a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'4. Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'login.php')]", "xpath:href"],
+        ["xpath=//small/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'4. Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "137226c7-489d-4459-8608-1d4eb7f6976e",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c77de99a-548e-47c6-aa07-685e0aa75da8",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "efe37acf-901a-4c40-a2da-6dd79590a453",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "8969cf09-2ace-430b-af35-d0495f08ae82",
+      "comment": "",
+      "command": "click",
+      "target": "name=FormsButton2",
+      "targets": [
+        ["name=FormsButton2", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='FormsButton2']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d040891f-7128-4e1c-ad6e-ae1b12260189",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4df9c358-6702-40d7-babd-7c36f78deb66"]
+  }],
+  "urls": ["http://eprint.com.hr/"],
+  "plugins": []
+}
